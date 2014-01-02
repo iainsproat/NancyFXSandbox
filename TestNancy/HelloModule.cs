@@ -14,7 +14,7 @@ namespace TestNancy
             Get["/"] = parameters => "Hello World";
             Get["/index"] = parameters =>
                 {
-                    return View["views/HtmlPage1.html"];
+                    return View["views/Index.cshtml"];
                 };
             Get["/miserables.json"] = parameters =>
                 {

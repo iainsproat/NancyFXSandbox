@@ -74,7 +74,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="packages.config" />
-    <Content Include="views\Index.cshtml" />
+    <Content Include="views\Index.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\miserables.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
