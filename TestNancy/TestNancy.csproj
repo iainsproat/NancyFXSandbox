@@ -70,9 +70,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="views\HtmlPage1.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="packages.config" />
     <Content Include="views\Index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
