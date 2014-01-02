@@ -12,6 +12,14 @@ namespace TestNancy
         public HelloModule()
         {
             Get["/"] = parameters => "Hello World";
+            Get["/index"] = parameters =>
+                {
+                    return View["views/HtmlPage1.html"];
+                };
+            Get["/miserables.json"] = parameters =>
+                {
+                    return Response.AsFile("data/miserables.json");
+                };
         }
     }
 }
